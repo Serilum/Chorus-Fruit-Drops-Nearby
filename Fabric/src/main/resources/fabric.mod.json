@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "chorusfruitdropsnearby",
-  "version": "1.0",
+  "version": "1.1",
 
   "name": "Chorus Fruit Drops Nearby",
   "description": "When breaking chorus plants, all chorus fruit will drop at the base position.",
