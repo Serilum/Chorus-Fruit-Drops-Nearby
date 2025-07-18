@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Chorus%20Fruit%20Drops%20Nearby"
+logoFile="icon.png"
+
+[[mods]]
+modId="chorusfruitdropsnearby"
+version="1.1"
+displayName="Chorus Fruit Drops Nearby"
+displayURL="https://serilum.com/mod/chorus-fruit-drops-nearby"
+authors="Rick South"
+description='''When breaking chorus plants, all chorus fruit will drop at the base position.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, Michael W. S., t128, Tyler Behl, XAgent   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.chorusfruitdropsnearby]]
+    modId="collective"
+    mandatory=true
+    versionRange="[8.4,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.chorusfruitdropsnearby]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.8]"
+    ordering="NONE"
+    side="BOTH"
