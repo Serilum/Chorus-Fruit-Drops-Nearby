@@ -1,4 +1,4 @@
-package com.natamus.chorusfruitdropsnearby.events;
+package com.serilum.chorusfruitdropsnearby.events;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
@@ -29,7 +29,7 @@ public class ChorusEvent {
 			return;	
 		}
 
-        ItemStack itemstack = itemEntity.getItem();
+		ItemStack itemstack = itemEntity.getItem();
 		if (!(itemstack.getItem().equals(Items.CHORUS_FRUIT))) {
 			return;
 		}
