@@ -1,7 +1,7 @@
-package com.natamus.chorusfruitdropsnearby;
+package com.serilum.chorusfruitdropsnearby;
 
-import com.natamus.chorusfruitdropsnearby.neoforge.events.NeoForgeChorusEvent;
-import com.natamus.chorusfruitdropsnearby.util.Reference;
+import com.serilum.chorusfruitdropsnearby.neoforge.events.NeoForgeChorusEvent;
+import com.serilum.chorusfruitdropsnearby.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.neoforged.bus.api.IEventBus;

@@ -1,4 +1,4 @@
-package com.natamus.chorusfruitdropsnearby;
+package com.serilum.chorusfruitdropsnearby;
 
 
 public class ModCommon {

@@ -1,6 +1,6 @@
-package com.natamus.chorusfruitdropsnearby.forge.events;
+package com.serilum.chorusfruitdropsnearby.forge.events;
 
-import com.natamus.chorusfruitdropsnearby.events.ChorusEvent;
+import com.serilum.chorusfruitdropsnearby.events.ChorusEvent;
 import com.natamus.collective.functions.WorldFunctions;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
