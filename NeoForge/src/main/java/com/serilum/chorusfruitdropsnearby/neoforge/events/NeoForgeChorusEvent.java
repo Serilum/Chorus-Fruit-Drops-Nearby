@@ -1,6 +1,6 @@
-package com.natamus.chorusfruitdropsnearby.neoforge.events;
+package com.serilum.chorusfruitdropsnearby.neoforge.events;
 
-import com.natamus.chorusfruitdropsnearby.events.ChorusEvent;
+import com.serilum.chorusfruitdropsnearby.events.ChorusEvent;
 import com.natamus.collective.functions.WorldFunctions;
 import net.minecraft.world.level.Level;
 import net.neoforged.bus.api.SubscribeEvent;

@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "chorusfruitdropsnearby",
-  "version": "1.2",
+  "version": "1.3",
 
   "name": "Chorus Fruit Drops Nearby",
   "description": "When breaking chorus plants, all chorus fruit will drop at the base position.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/chorus-fruit-drops-nearby",
     "sources": "https://github.com/Serilum/Chorus-Fruit-Drops-Nearby",
@@ -16,14 +16,14 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.chorusfruitdropsnearby.ModFabric" ] },
+  "entrypoints": { "main": [ "com.serilum.chorusfruitdropsnearby.ModFabric" ] },
 
   "depends": {
     "fabricloader": ">=0.18.0",
     "fabric-api": "*",
     "minecraft": ">=26.3",
     "java": ">=25",
-    "collective": ">=8.39"
+    "collective": ">=8.40"
   },
 
   "custom": {
@@ -38,7 +38,7 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
