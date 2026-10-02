@@ -1,13 +1,13 @@
-package com.natamus.chorusfruitdropsnearby.forge.events;
+package com.serilum.chorusfruitdropsnearby.neoforge.events;
 
-import com.natamus.chorusfruitdropsnearby.events.ChorusEvent;
+import com.serilum.chorusfruitdropsnearby.events.ChorusEvent;
 import com.natamus.collective.functions.WorldFunctions;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.event.entity.EntityJoinLevelEvent;
-import net.minecraftforge.event.level.BlockEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
+import net.neoforged.neoforge.event.level.BlockEvent;
 
-public class ForgeChorusEvent {
+public class NeoForgeChorusEvent {
 	@SubscribeEvent
 	public static void onChorusFruitItem(EntityJoinLevelEvent e) {
 		ChorusEvent.onChorusFruit(e.getLevel(), e.getEntity());
