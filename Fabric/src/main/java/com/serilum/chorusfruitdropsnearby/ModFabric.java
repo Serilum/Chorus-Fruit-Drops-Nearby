@@ -1,7 +1,7 @@
-package com.natamus.chorusfruitdropsnearby;
+package com.serilum.chorusfruitdropsnearby;
 
-import com.natamus.chorusfruitdropsnearby.events.ChorusEvent;
-import com.natamus.chorusfruitdropsnearby.util.Reference;
+import com.serilum.chorusfruitdropsnearby.events.ChorusEvent;
+import com.serilum.chorusfruitdropsnearby.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.fabricmc.api.ModInitializer;
